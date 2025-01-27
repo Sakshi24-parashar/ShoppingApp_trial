@@ -155,9 +155,9 @@ function Home(){
     const[bio,setBio]=useState(data);
     return(
         
-          
+         <div>
 
-      <div className='  bg-gradient-to-r from-white to-purple-700  via-blue-300 h-full py-32 px-4 w-full'>
+      <div className='  bg-gradient-to-r  from-white to-purple-300  via-blue-300 h-full py-32 px-4 w-full'>
         <h2 className='text-5xl font-serif font-normal text-center text-fuchsia-800'>Shop By Category</h2>
         <div className='grid grid-cols-5 my-10 gap-8 justify-items-center'>
             {bio.map(items=>{
@@ -165,9 +165,63 @@ function Home(){
             })
             }     
           
-        </div>
+        </div>  
         
       </div>
+       <div className="bg-slate-100 h-[500px] w-full flex justify-evenly py-20">
+        <div className="flex flex-col gap-6 ">
+            <h3 className="text-sm font-semibold">Online Shoping</h3>
+            <ul className="text-sm  text-slate-600 flex flex-col gap-2 cursor-pointer">
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kids</li>
+                <li>Living</li>
+                <li>Beauty</li>
+            </ul>
+        </div>
+
+        <div className="flex flex-col gap-6 ">
+            <h3 className="text-sm font-semibold">Customer Policies</h3>
+            <ul className="text-sm  text-slate-600 flex flex-col gap-2 cursor-pointer">
+                <li>Contact Us</li>
+                <li>FAQ</li>
+                <li>T&C</li>
+                <li>Terms of Use</li>
+                <li>Track Order</li>
+                <li>Shopping</li>
+                <li>Cancellation</li>
+                <li>Return</li>
+                <li>Privacy Policies</li>
+                <li>Grievance Redressal</li>
+            </ul>
+        </div>
+
+        <div className="flex flex-col gap-6 ">
+            <h3 className="text-sm font-semibold">Useful Links</h3>
+            <ul className="text-sm  text-slate-600 flex flex-col gap-2 cursor-pointer">
+                <li>Blog</li>
+                <li>Careers</li>
+                <li>Site Map</li>
+                <li>Corporate Information</li>
+                <li>Whitehat</li>
+                <li>ClearTrip</li>
+            </ul>
+        </div>
+
+        <div className="flex flex-col gap-6 ">
+            <h3 className="text-sm font-semibold">Contact Us</h3>
+            <ul className="text-sm  text-slate-600 flex flex-col gap-2 cursor-pointer">
+                <li>+012-345-6789</li>
+                <li>xyz@gmail.com</li>
+                <li>xyz_linkedin_xyz</li>
+            </ul>
+        </div>
+
+        
+
+       </div>
+
+       </div> 
 
         
     );

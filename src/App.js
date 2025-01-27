@@ -13,7 +13,7 @@ import Beauty from './component/Beauty';
 
 function App() {
   return (
-    <div className="animate-fadeIn opacity-0 animate-delay-300 animate-duration-700">
+    <div className="animate-fadeIn  opacity-0 animate-delay-300 animate-duration-700">
 
       <div className='flex justify-between px-8 py-4 fixed w-full bg-white shadow-2xl items-center border-y-4 border-slate-200'>
         <NavLink to='/'><img className='h-16 w-24' src='https://www.creativefabrica.com/wp-content/uploads/2023/02/17/GS-Monogram-Logo-Graphics-61543769-1-580x387.jpg'></img></NavLink>
@@ -62,6 +62,8 @@ function App() {
         </div>
 
       </div>
+
+      
       
      
 

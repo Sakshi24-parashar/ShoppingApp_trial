@@ -3,6 +3,7 @@
 function Beauty(){
     return(
         <div>
+           
 
         </div>
     );
